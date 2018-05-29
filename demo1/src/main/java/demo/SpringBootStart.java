@@ -1,7 +1,6 @@
 package demo;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -9,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-public class springBootStart {
+public class SpringBootStart {
 
     public static void main(String[] args) {
-        SpringApplication.run(springBootStart.class,args);
+        SpringApplication.run(SpringBootStart.class,args);
     }
 }
