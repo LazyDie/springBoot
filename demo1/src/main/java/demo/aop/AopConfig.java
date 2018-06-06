@@ -30,10 +30,6 @@ public class AopConfig {
         Object ob = null;
         System.out.println(joinPoint.getSignature().getDeclaringType());
         System.out.println("--------------");
-        MethodSignature signature = (MethodSignature) joinPoint.getSignature();
-        System.out.println(signature);
-        Method method = signature.getMethod();
-        System.out.println(method);
         joinPoint.proceed();
         System.out.println("--------------");
         return ob;
