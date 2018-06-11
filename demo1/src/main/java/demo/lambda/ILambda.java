@@ -7,4 +7,7 @@ public interface ILambda {
 
     public String getString(int a ,String b);
 
+    int b();
+
+    int a();
 }
