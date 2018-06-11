@@ -5,13 +5,14 @@ package demo.lambda;
  */
 public class MLambda {
     public static void main(String[] args) {
-        ILambda iLambda = (a,b) -> {
+        System.out.println();
+        /*ILambda iLambda = (a,b) -> {
           StringBuilder sb = new StringBuilder();
           sb.append(a);
           sb.append(b);
           return sb.toString();
         };
         String result = iLambda.getString(100, "hello");
-        System.out.println(result);
+        System.out.println(result);*/
     }
 }
