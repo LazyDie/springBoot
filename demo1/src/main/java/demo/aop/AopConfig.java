@@ -39,6 +39,8 @@ public class AopConfig {
         System.out.println("方法之前");
         logger.info("info {} ",name);
         logger.debug("debug");
+
+        ///特他说他是天堂
     }
 
     @After("pointCut()")
